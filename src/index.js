@@ -1,13 +1,14 @@
 import React from 'react';
 import reactDom from 'react-dom';
 
-import styles from './index.module.css';
-import './global.css';
-
+import './style.css';
 
 const App = () => {
   return (
-    <h1 className={styles.header}>Hello Isono Takashi, Le bachelor</h1>
+    <div>
+      <h1>Hello Isono Takashi, Le bachelor</h1>
+      <h2>Welcome to CV Generator</h2>
+    </div>
   )
 }
 

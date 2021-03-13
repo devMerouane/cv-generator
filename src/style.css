@@ -1,0 +1,37 @@
+body{
+ display: flex;
+ align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+div{
+  overflow: hidden;
+}
+h1{
+  font-size: 50px;
+  animation: FadeInH1 2s forwards;
+}
+h2{
+  text-align: center;
+  animation: FadeInH2 4s forwards;
+}
+@keyframes FadeInH1{
+  0%{
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+  100%{
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+@keyframes FadeInH2{
+  0%{
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  100%{
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
