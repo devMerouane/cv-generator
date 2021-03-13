@@ -4,6 +4,15 @@ body{
   justify-content: center;
   height: 100vh;
 }
+.image_container{
+  text-align: center;
+}
+.image_container>img{
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  object-fit: cover;
+}
 div{
   overflow: hidden;
 }

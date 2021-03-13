@@ -5,10 +5,15 @@ import './style.css';
 
 const App = () => {
   return (
-    <div>
-      <h1>Hello Isono Takashi, Le bachelor</h1>
-      <h2>Welcome to CV Generator </h2>
-    </div>
+    <>
+      <div className="image_container">
+        <img src="/images/bachelor.jpeg" />
+      </div>
+      <div>
+        <h1>Hello Issono Takashi, Le bachelor</h1>
+        <h2>Welcome to CV Generator </h2>
+      </div>
+    </>
   )
 }
 
